@@ -51,8 +51,8 @@ var gameActive = false;
 // socket.io stuff
 
 //
-// const socket = io('https://dunno.herokuapp.com/'); // use our heroku app when hosting later on
-const socket = io("http://localhost:3000/")
+const socket = io('https://warm-cove-18255.herokuapp.com/'); // use our heroku app when hosting later on
+// const socket = io("http://localhost:3000/")
 
 socket.on('init', handleInit);
 socket.on('gameState', handleGameState);
