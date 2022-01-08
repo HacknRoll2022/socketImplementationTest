@@ -1,0 +1,86 @@
+/* @media (hover: hover) {	
+	.action_button:hover {
+        background-color: #1264cf;
+    }
+} */
+
+body {
+    background-color: #45830c;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    /* padding: 10px; */
+    font-family: "Lucida Console", "Courier New", monospace;    
+    text-align: center;
+}
+.container {
+    display: flex;
+}
+
+.highlight {
+    background-color: rgba(37, 20, 8, 0.4);
+}
+
+.grid-user1 {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    /* background-color: #944C00; */
+    background-image: url("../assets/soil.png");
+
+}
+
+.grid-user2{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+    margin: 20px;
+}
+
+.grid div{
+    width: 60px;
+    height: 60px;
+    border: 1px dotted #401F0D;
+}
+
+.grid-display{
+    width: 400px;
+    height:400px;
+    margin:20px;
+    background-color: yellow;
+}
+
+.top5 { margin-top:5%; }
+
+
+.action_button {
+	background-color: #48CAFD;
+	/* background-image: linear-gradient(#ffe16d, #fccd66); */
+	box-sizing: border-box;
+	border-radius: 15px;
+	color: #000000;
+	cursor: pointer;
+	display: block;
+	font-weight: 600;
+	margin: 5px;
+	padding: 15px 10px;	
+	text-align: center;
+}
+
+#footer {
+	position: relative;
+	width: 100%;
+}
+
+.footer_pattern {
+	height: 200px;
+	background-image: url("../assets/footer.png");
+	background-repeat: repeat-x;
+	background-size: contain;
+}
